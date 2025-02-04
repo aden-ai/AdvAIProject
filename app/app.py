@@ -49,8 +49,6 @@ def main():
         initial_sidebar_state="expanded",
     )
 
-    st.set_option('theme.base', 'light')
-
     hide_streamlit_style = """
         <style>
         #MainMenu {visibility: hidden;} /* Hides the main menu */
